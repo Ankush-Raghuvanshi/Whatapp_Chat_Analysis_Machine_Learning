@@ -1,98 +1,147 @@
-# Whatapp_Chat_Analysis_Machine_Learning
-1. Introduction:
-WhatsApp Chat Analysis is a data-driven project that extracts and visualizes insights
-from WhatsApp conversations. By analyzing chat history, we can uncover interesting
-patterns, such as the most active participants, peak chatting hours, emoji usage, and
-sentiment trends. This project helps users explore their chat data interactively using
-Python, Pandas, and Streamlit.
-This project aims to:
- Analyze personal or group conversations
- Identify the most active users and message trends
- Perform sentiment analysis to gauge emotional tone
- Visualize chat activity through interactive graphs and charts.
-Project Objectives
-1. Extract and structure WhatsApp chat data
-2. Analyze message frequency patterns (daily, weekly, and hourly trends)
-3. Identify the most active participants in group chats
-4. Detect the most commonly used words and emojis
-5. Perform sentiment analysis on messages (positive, negative, neutral)
-6. Build an interactive dashboard using Streamlit
+WhatsApp_Chat_Analysis_Machine_Learning
 
-Functionalities:
-Chat Parsing &amp; Data Extraction
- Reads the exported WhatsApp chat file (.txt format)
- Uses Regular Expressions (Regex) to extract timestamps, senders, and messages
- Converts the extracted data into a structured Pandas DataFrame.
+🧾 1. Introduction
 
-Message Frequency Analysis
- Finds the most active days and hours
- Identifies top contributors in a group chat
- Tracks message volume over time
-Emoji Usage Statistics
- Extracts emojis used in messages
- Identifies the most frequently used emojis
- Creates visualizations of emoji trends
-Word Cloud &amp; Common Words
- Identifies the most used words (excluding stop words like “the”, “is”, etc.)
- Generates a word cloud for visualization
-Sentiment Analysis
- Uses Natural Language Processing (NLP) to analyze message sentiment
- Categorizes messages as positive, negative, or neutral
- Plots sentiment trends over time
-Interactive Data Visualization
- Streamlit-based dashboard for exploring chat insights
- Interactive bar charts, line graphs, and pie charts
- Allows users to filter and explore data dynamically
+WhatsApp Chat Analysis is a data-driven project that extracts and visualizes insights from WhatsApp conversations. By analyzing chat history, the project uncovers interesting patterns such as:
 
+Most active participants
 
-Technologies Used
-Programming Languages &amp; Libraries
- Python – Main programming language
- Pandas – Data processing and analysis
- Regular Expressions (re) – Extracting patterns from chat data
- Matplotlib &amp; Seaborn – Data visualization
- Emoji &amp; WordCloud – Emoji extraction and word frequency analysis
- NLTK (Natural Language Toolkit) – Sentiment analysis
- Streamlit – Interactive UI and dashboard.
+Peak chatting hours
 
-How It Works – Step-by-Step
-1️ Upload WhatsApp Chat File
- Export a chat from WhatsApp (.txt file)
- Upload the file in the Streamlit web app
-2️ Data Preprocessing
- The script parses chat messages using regex
- Converts data into a structured format (Date, Time, User, Message)
-3️ Data Analysis &amp; Visualization
- Message activity trends (daily, hourly)
- Top contributors in group chats
- Emoji and word frequency analysis
- Sentiment classification of messages
-4️ Display Results in an Interactive Dashboard
- Users can filter, sort, and explore the chat insights
- Graphs and charts make it easy to understand trends visually
+Emoji usage
 
+Sentiment trends
 
-Use Cases &amp; Applications
-�� Personal Chat Analysis
- Find out who texts the most in your personal chats
- Identify your most active hours and days
-�� Group Chat Insights
- Discover the most talkative members of a group
- Track engagement trends over time
-�� Sentiment Tracking
- Monitor positive or negative trends in conversations
- Useful for customer support chats to detect user sentiment
-�� Business &amp; Research Applications
- Analyze customer conversations for sentiment and trends
- Extract key topics from group discussions
+The project helps users explore their chat data interactively using Python, Pandas, and Streamlit.
 
-Key Features
- Chat Parsing: Extracts structured data (timestamps, senders, and messages) from raw
-chat files.
- Message Frequency Analysis: Identifies the most active users and peak conversation
-times.
- Emoji Usage Statistics: Displays the most frequently used emojis.
- Sentiment Analysis: Analyzes whether the conversation is positive, negative, or
-neutral.
- Interactive Dashboard: Uses Streamlit to visualize the data with graphs and charts.
+🎯 Project Aims:
 
+Analyze personal or group conversations
+
+Identify active users and messaging trends
+
+Perform sentiment analysis to gauge emotional tone
+
+Visualize chat activity through interactive graphs and charts
+
+🎯 Project Objectives
+
+Extract and structure WhatsApp chat data
+
+Analyze message frequency patterns (daily, weekly, hourly)
+
+Identify the most active participants in group chats
+
+Detect commonly used words and emojis
+
+Perform sentiment analysis (positive, negative, neutral)
+
+Build an interactive dashboard using Streamlit
+
+⚙️ Functionalities:
+
+📥 Chat Parsing & Data Extraction
+
+Reads exported WhatsApp .txt files
+
+Uses Regex to extract timestamps, senders, and messages
+
+Converts data into a structured Pandas DataFrame
+
+📈 Message Frequency Analysis:
+
+Tracks the most active days and hours
+
+Identifies top contributors in group chats
+
+Analyzes message volume over time
+
+😊 Emoji Usage Statistics:
+
+Extracts and visualizes emoji usage trends
+
+Displays most frequently used emojis
+
+☁️ Word Cloud & Common Words:
+
+Highlights most used words (excluding stopwords)
+
+Generates word cloud visualizations
+
+💬 Sentiment Analysis:
+
+Uses NLP (NLTK) for sentiment classification
+
+Categorizes messages as Positive, Negative, or Neutral
+
+Plots sentiment over time
+
+📊 Interactive Data Visualization:
+
+Streamlit-based dashboard
+
+Includes interactive bar charts, line graphs, pie charts
+
+Allows users to filter and explore insights dynamically
+
+🛠️ Technologies Used
+Languages & Libraries:
+
+Python
+
+Pandas
+
+Regex (re)
+
+Matplotlib & Seaborn
+
+Emoji & WordCloud
+
+NLTK (Natural Language Toolkit)
+
+Streamlit
+
+🔄 How It Works – Step-by-Step
+1️⃣ Upload WhatsApp Chat File
+Export chat from WhatsApp (.txt format)
+
+Upload via Streamlit web app
+
+2️⃣ Data Preprocessing
+Parse chat with Regex
+
+Convert to structured format: Date, Time, User, Message
+
+3️⃣ Data Analysis & Visualization
+Message trends (daily/hourly)
+
+Top contributors
+
+Emoji/word analysis
+
+Sentiment classification
+
+4️⃣ Interactive Dashboard
+Filter and explore insights
+
+Visual trends via charts and graphs
+
+💼 Use Cases & Applications
+👥 Personal Chat Analysis: Find your most active contacts and hours
+
+🧑‍🤝‍🧑 Group Chat Insights: Identify talkative members and trends
+
+📉 Sentiment Tracking: Useful for customer support and emotional tone analysis
+
+🏢 Business/Research: Analyze customer conversations or topic trends in chats
+
+🌟 Key Features
+✅ Chat Parsing – Extract structured info from raw chat logs
+
+📊 Message Frequency Analysis – Track active users and peak times
+
+😊 Emoji Stats – View your most-used emojis
+
+💬 Sentiment Analysis – Understand the tone of conversations
+
+🧠 Interactive Dashboard – Explore all insights in a visual, user-friendly format
