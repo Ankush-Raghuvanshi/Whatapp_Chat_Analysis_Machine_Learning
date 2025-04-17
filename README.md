@@ -138,6 +138,7 @@ Visual trends via charts and graphs
 🌟 Key Features
 ✅ Chat Parsing – Extract structured info from raw chat logs
 
+
 📊 Message Frequency Analysis – Track active users and peak times
 
 😊 Emoji Stats – View your most-used emojis
@@ -145,3 +146,16 @@ Visual trends via charts and graphs
 💬 Sentiment Analysis – Understand the tone of conversations
 
 🧠 Interactive Dashboard – Explore all insights in a visual, user-friendly format
+![image](https://github.com/user-attachments/assets/c907cc6a-49b1-4bd7-8bc4-776bee411507)
+![image](https://github.com/user-attachments/assets/51d3315c-cb55-4efc-b428-a6bb89c1e14b)
+![image](https://github.com/user-attachments/assets/ae8eb435-f002-4e99-a921-84ce21484945)
+![image](https://github.com/user-attachments/assets/e9523f03-32c1-4d4b-a9ce-7bfe1ddeea7a)
+![image](https://github.com/user-attachments/assets/81fb3572-073a-4564-a054-b85a0efb4897)
+![image](https://github.com/user-attachments/assets/54333b51-8e5e-4ece-8590-439093e8c29a)
+![image](https://github.com/user-attachments/assets/b8d56f6a-903b-4928-92c5-ed5237add073)
+
+
+
+
+
+
